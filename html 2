@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harshita Shakya | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header id="home">
+    <nav>
+      <h1>Harshita Shakya</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggleMode">🌙</button></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <img src=""C:\Users\shaky\OneDrive\Documents\profile.jpg"" alt="Harshita Shakya" class="profile"/>
+      <h2>Hello, I'm Harshita</h2>
+      <p>B.Tech in AIML | Passionate about AI, Data Science & Development</p>
+      <div class="socials">
+        <a href="mailto:shakyaharshita20@gmail.com">📧</a>
+        <a href="https://github.com/HarshitaShakya" target="_blank">💻</a>
+        <a href="https://www.linkedin.com/in/harshita-shakya-33a1a4316" target="_blank">🔗</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Harshita Shakya, a B.Tech AIML student and passionate web developer. I specialize in creating responsive, user-friendly websites using HTML, CSS, and JavaScript, with strong skills in Python, C, and data handling. With a creative mind and a problem-solving approach, I aim to build meaningful digital experiences and grow as a full-stack developer.
+     </p>
+    <div class="skills">
+      <h3>Skills</h3>
+      <div class="skill">
+        <label>Python</label>
+        <progress value="80" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>C Programming</label>
+        <progress value="75" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>MS Word</label>
+        <progress value="90" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>HTML/CSS</label>
+        <progress value="85" max="100"></progress>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <img src="https://via.placeholder.com/300x180?text=Project+1" alt="Project 1">
+        <h4>AI Chatbot</h4>
+        <p>A simple chatbot using Python and NLP techniques.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x180?text=Project+2" alt="Project 2">
+        <h4>Portfolio Website</h4>
+        <p>This personal portfolio created with HTML, CSS, and JS.</p>
+        <a href="#">View Code</a>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x180?text=Project+3" alt="Project 3">
+        <h4>Data Analysis Dashboard</h4>
+        <p>Used Python, pandas, and matplotlib to visualize data.</p>
+        <a href="#">Explore More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Harshita Shakya. All rights reserved.</p>
+  </footer>
+</body>
+</html>
